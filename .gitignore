@@ -1,0 +1,13 @@
+*.swp
+*.swo
+*.symvers
+*.order
+*.ko
+*.mod.c
+*.o
+*.cmd
+.cache.mk
+.tmp_versions
+.gdb_history
+compile_commands.json
+a.out
