@@ -1,0 +1,28 @@
+2019-07-15 15:35:33,879	INFO node.py:498 -- Process STDOUT and STDERR is being redirected to /tmp/ray/session_2019-07-15_15-35-33_878591_27362/logs.
+2019-07-15 15:35:33,986	INFO services.py:409 -- Waiting for redis server at 127.0.0.1:20435 to respond...
+2019-07-15 15:35:34,097	INFO services.py:409 -- Waiting for redis server at 127.0.0.1:37183 to respond...
+2019-07-15 15:35:34,101	INFO services.py:806 -- Starting Redis shard with 3.44 GB max memory.
+2019-07-15 15:35:34,115	INFO node.py:512 -- Process STDOUT and STDERR is being redirected to /tmp/ray/session_2019-07-15_15-35-33_878591_27362/logs.
+2019-07-15 15:35:34,116	INFO services.py:1446 -- Starting the Plasma object store with 5.15 GB memory using /tmp.
+tensor([[1., 0., 0., 0., 0., 0., 0., 0.],
+        [0., 1., 0., 0., 0., 0., 0., 0.],
+        [0., 0., 1., 0., 0., 0., 0., 0.],
+        [0., 0., 0., 1., 0., 0., 0., 0.],
+        [0., 0., 0., 0., 1., 0., 0., 0.],
+        [0., 0., 0., 0., 0., 1., 0., 0.],
+        [0., 0., 0., 0., 0., 0., 1., 0.],
+        [0., 0., 0., 0., 0., 0., 0., 1.]])
+[[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]
+[[0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]]
+2019-07-15 15:35:36,921	ERROR worker.py:1612 -- Possible unhandled error from worker: [36mray_worker:__main__.f()[39m (pid=27564)
+  File "exp5.py", line 11, in f
+    x[i][i] = 1
+ValueError: assignment destination is read-only
+

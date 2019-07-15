@@ -1,0 +1,7 @@
+2019-07-15 15:35:19,687	INFO node.py:498 -- Process STDOUT and STDERR is being redirected to /tmp/ray/session_2019-07-15_15-35-19_687531_25991/logs.
+2019-07-15 15:35:19,796	INFO services.py:409 -- Waiting for redis server at 127.0.0.1:31179 to respond...
+2019-07-15 15:35:19,913	INFO services.py:409 -- Waiting for redis server at 127.0.0.1:40217 to respond...
+2019-07-15 15:35:19,915	INFO services.py:806 -- Starting Redis shard with 3.44 GB max memory.
+2019-07-15 15:35:19,927	INFO node.py:512 -- Process STDOUT and STDERR is being redirected to /tmp/ray/session_2019-07-15_15-35-19_687531_25991/logs.
+2019-07-15 15:35:19,928	INFO services.py:1446 -- Starting the Plasma object store with 5.15 GB memory using /tmp.
+7fae65f5a5c0, 12b51d300, 12b51d300
